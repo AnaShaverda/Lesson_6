@@ -112,3 +112,7 @@ th, td {
     font-weight: 400;
 }
 
+ol li::marker, ul li::marker {
+    color:#8f2323;
+    font-weight: 600;
+}
