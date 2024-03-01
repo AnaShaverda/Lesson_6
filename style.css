@@ -1,0 +1,114 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    --heading-color: hsl(311, 95%, 9%);
+
+  }
+
+  
+
+  body{
+    background-color: var(--eggshell);
+    padding:50px;
+  }
+p{
+    font-size: 16px;
+}
+  .content-container{
+    background-color: white;
+    margin:0 auto;
+    width: 40vw;
+    border-radius: 30px;
+    padding: 50px;
+  }
+
+  .image-container{
+    border-radius: 30px;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+
+  }
+
+  .image{
+    border-radius: 30px;
+  }
+
+
+
+  .title{
+    text-transform: capitalize;
+    font-family: "Young Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 24px;
+ }
+
+
+  .text{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+  }
+
+  .prep-div{
+    background-color: var(--rose-white);
+    padding:20px;
+    border-radius: 30px;
+  }
+  .prep-div h3{
+    color:var(--heading-color);
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Outfit", sans-serif;
+ 
+  }
+
+  .prep-div ul li, .ingredient-div ul li, .instructions-div ol li{
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    padding-left: 15px;   
+    text-transform:capitalize;
+  }
+
+  .ingredient-div,.instructions-div{
+    background-color: var(--white);
+    border-bottom: 1px solid var(--dark-charcoal);
+  }
+
+  .ingredient-div h3, .instructions-div h3, .nutrition-div h3{
+    color:#8f2323;
+   font-size: 20px;
+   text-transform: capitalize;
+   font-family: "Outfit", sans-serif;
+  }
+  .ingredient-div ul li, .ingredient-div ol li{
+    color:var(--dark-charcoal);
+  }
+.nutrition-div p{
+    font-family: "Outfit", sans-serif;
+}
+.nutrition-div{
+    background-color: var(--white);
+}
+table {
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+}
+
+.numbers{
+    color:#8f2323;
+    font-weight: 400;
+}
+
